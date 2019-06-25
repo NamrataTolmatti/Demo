@@ -7,7 +7,7 @@ var ordersController=function(req, res){
   var orders = [
     {id:1, customer:"Raj",amount:500, status:"completed"},
     {id:2, customer:"Simran",amount:1500, status:"inprogress"},
-    {id:3, customer:"Ram",amount:2500, status:"rejected"}
+    {id:3, customer:"Ram",amount:27000, status:"rejected"}
   ];
   res.send(orders);
 };
